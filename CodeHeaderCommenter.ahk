@@ -89,7 +89,7 @@ Return
 	{
 		final := comm equals newClip equals
 	}
-	Send, %final%
+	SendRaw, %final%
 	;MsgBox % "Spaces: " ErrorLevel "`nChars: " (Length-ErrorLevel) "`n Line: " test
 	Clipboard := clip
 }
